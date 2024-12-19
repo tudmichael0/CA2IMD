@@ -74,29 +74,33 @@
         <h2>Hobbies and Interests</h2>
         <p>I have a wide range of interests, with sports playing a key role in my life. Boxing has taught me discipline, focus, and resilience, while basketball has helped me develop teamwork
             and communication skills. I’m also passionate about technology, particularly cloud computing, software development, and information security. These hobbies keep me balanced 
-            and motivated, both physically and mentally, and I enjoy taking on new challenges in all areas of my life.</p>
+            and motivated, both physically and mentally, and I enjoy taking hello on new challenges in all areas of my life.</p>
     </section>
 
-    <!-- Contact Modal -->
-    <button type="button" class="btn btn-primary m-4" data-bs-toggle="modal" data-bs-target="#contactModal">
-        Contact Me
-    </button>
+<!-- Button that triggers modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+    Open Modal
+</button>
 
-    <div class="modal fade" id="contactModal" tabindex="-1" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Contact Michael</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <p><strong>Phone:</strong> +353 0852079156</p>
-                    <p><strong>Email:</strong> michaelolaogun19@gmail.com</p>
-                    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/o194gn12" target="_blank">LinkedIn Profile</a></p>
-                </div>
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="myModalLabel">Modal Title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                This is the content of the modal.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
             </div>
         </div>
     </div>
+</div>
+  
 
     <!-- Footer -->
     <footer class="bg-dark text-white text-center py-3">

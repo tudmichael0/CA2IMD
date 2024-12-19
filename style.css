@@ -1,14 +1,42 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
+    margin: 0; /* Remove default margin */
+    padding-bottom: 70px; /* Add more space at the bottom for the footer */
 }
 
 header img {
     border: 5px solid #fff;
 }
 
+/* Adjustments for the footer */
 footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    z-index: 1000;
+}
+
+main {
+    padding-bottom: 80px; /* Adjusted to give space for the footer */
+    padding-top: 20px; /* Adds space at the top to make the page look better */
+}
+
+/* Adjust the modal button's position */
+.modal-button {
+    margin-bottom: 20px; /* Adds space below the modal button so it's not cut off */
+}
+
+/* Make sure the content doesn't overlap on smaller screens */
+@media (max-width: 768px) {
+    body {
+        padding-bottom: 70px; /* Adjust for smaller screens */
+    }
+    .modal-button {
+        margin-bottom: 15px; /* Slightly smaller margin for smaller screens */
+    }
 }
