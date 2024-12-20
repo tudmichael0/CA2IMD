@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Your custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">My Interactive Portfolio Website</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="features.html">My Bootstrap features</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <img src="assests/pfp.jpg" alt="Michael Olaogun" class="rounded-circle mb-3" width="150">
+            <h1>Michael Olaogun</h1>
+            <p>Ambitious Computing Student | IT Management | Software Development</p>
+        </div>
+    </header>
+
+<!-- About Section -->
+<section class="about-section py-5">
+    <div class="container">
+        <div class="row justify-content-center text-center">
+            <div class="col-md-8">
+                <h2 class="mb-3">Summary</h2>
+                <p>
+                    Hello! My name is Michael Olaogun, and I'm a computing student with a passion for technology, problem-solving,
+                    and continuous learning. I enjoy boxing, which has taught me discipline, resilience, and time management.
+                    When I’m not immersed in tech, you’ll find me exploring creative projects or engaging in sports.
+                </p>
+                <p>
+                    Interesting Fact: I competed in boxing for five years and won the Louth Championship in 2016. 
+                    These experiences have shaped me into a well-rounded individual with both technical and personal skills.
+                </p>
+            </div>
+        </div>
+        <div class="row justify-content-center mt-4">
+            <div class="col-md-8">
+                <!-- Carousel -->
+                <div id="aboutCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <!-- First Image -->
+                        <div class="carousel-item active">
+                            <img src="assests/3.png" class="d-block w-100 rounded" alt="Tech Image">
+                        </div>
+                        <!-- Second Image -->
+                        <div class="carousel-item">
+                            <img src="assests/2.png" class="d-block w-100 rounded" alt="Boxing Image">
+                        </div>
+                        <!-- Third Image -->
+                        <div class="carousel-item">
+                            <img src="assests/1.png" class="d-block w-100 rounded" alt="College Studying Image">
+                        </div>
+                    </div>
+                    <!-- Carousel Controls -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#aboutCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#aboutCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+   <!-- Footer -->
+   <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2024 Michael Olaogun. All Rights Reserved.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
